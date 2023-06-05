@@ -19,7 +19,7 @@ int main(){
     }
     for(i=0;i<3;i++){
         for(j=0;j<23;j++){
-            sum[i]=array[j]
+            sum[i]=sum[i]+array[j];
         }
     }
     //printf("\nLa sumatoria de notas de cada estudiante es: %f\n",prom);
